@@ -1,0 +1,21 @@
+.Content{
+    font-family: 'kanit'
+}
+.btn-button {
+    margin: 10px;
+}
+.modal-body {
+    justify-content: center;
+    text-align: center;
+}
+.modal-pic {
+    align-items: center;
+    width: 450px;
+    height: 300px;
+}
+.percent {
+    margin: 20%;
+}
+ModalHeader {
+    font-family: 'kanit'
+}
