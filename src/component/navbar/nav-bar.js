@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, } from 'reactstrap';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="faded" light>
-          <NavbarBrand href="/" className="mr-auto"> 🇹🇭 มาจับทหารกันเถอะ 🔴 ⚫️</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto"> มาจับทหารกันเถอะ </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

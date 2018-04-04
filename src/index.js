@@ -5,7 +5,6 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WebFont from 'webfontloader';
-import Emoji from 'react-emoji-render';
 
 WebFont.load({
   google: {
